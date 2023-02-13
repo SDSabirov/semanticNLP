@@ -1,14 +1,16 @@
+
 import spacy
 
-# nlp = spacy.load('en_core_web_md')
+# spacy md model
+nlp = spacy.load('en_core_web_md')
 
-# word1 = nlp("cat")
-# word2 = nlp("monkey")
-# word3 = nlp("banana")
+word1 = nlp("cat")
+word2 = nlp("monkey")
+word3 = nlp("banana")
 
-# print(word1.similarity(word2))
-# print(word3.similarity(word2))
-# print(word3.similarity(word1))
+print(word1.similarity(word2))
+print(word3.similarity(word2))
+print(word3.similarity(word1))
 
 """From the results we can see 'cat' similar to 'monkey' by 0.5929929675536907 units.
    Then, 'banana' and 'monkey' similarity gives result of 0.40415016164997786, while

@@ -1,6 +1,8 @@
 
 import spacy
 
+
+
 # spacy md model
 nlp = spacy.load('en_core_web_md')
 
@@ -21,6 +23,7 @@ print(word3.similarity(word1))
    priorly bananas, while all cats are meat eaters."""
 
 
+# sm  Model
 nlp = spacy.load('en_core_web_sm')
 
 word1 = nlp("cat")

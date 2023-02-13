@@ -1,5 +1,7 @@
 import spacy
 
+# Using md model
+
 # nlp = spacy.load('en_core_web_md')
 
 # word1 = nlp("cat")
@@ -19,6 +21,7 @@ import spacy
    priorly bananas, while all cats are meat eaters."""
 
 
+# sm  Model
 nlp = spacy.load('en_core_web_sm')
 
 word1 = nlp("cat")
